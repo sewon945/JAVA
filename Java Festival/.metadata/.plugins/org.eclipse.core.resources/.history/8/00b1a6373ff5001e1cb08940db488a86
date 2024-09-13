@@ -1,0 +1,50 @@
+package javafestival;
+
+import java.util.Random;
+
+public class Ex18 {
+
+	public static void main(String[] args) {
+
+		int[] array = new int [6];
+		Random ran = new Random();
+		array[0] = ran.nextInt(6)+1;
+		
+		for(int j =1; j< array.length;j++) {
+			array[j]=ran.nextInt(6)+1;
+			for(int i =0;i<j;i++) {
+				if(array[j] == array[i]) {
+					j--;
+				}
+			}
+		}
+		for(int j=0; j<6;j++) {
+			System.out.println("행운의 숫자 : " array[j]);
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

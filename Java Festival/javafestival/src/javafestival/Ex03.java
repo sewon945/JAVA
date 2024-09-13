@@ -1,0 +1,23 @@
+package javafestival;
+
+public class Ex03 {
+
+	public static void main(String[] args) {
+
+		int num = 0;
+		int total = 0;
+		for (int i = 1; i <= 100; i++) {
+			if (i % 2 == 0) {
+				num = i * -1;
+			} else {
+				num = i;
+			}
+			total += num;
+			System.out.print(num + " ");
+		}
+		System.out.println();
+		System.out.println("결과 : " + total);
+
+	}
+
+}

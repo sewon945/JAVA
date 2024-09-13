@@ -1,0 +1,21 @@
+package javafestival;
+
+import java.util.Random;
+import java.util.Scanner;
+
+public class javafestival {
+
+	public static void main(String[] args) {
+
+
+		for(int i = 65; i <91; i++) {
+			System.out.println();
+		}
+		System.out.println();
+		
+		
+		
+		
+	}
+
+}
